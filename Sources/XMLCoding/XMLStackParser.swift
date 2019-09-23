@@ -6,6 +6,10 @@
 //  Copyright © 2017 Shawn Moore. All rights reserved.
 //
 
+#if os(Linux)
+    import FoundationXML
+#endif
+
 import Foundation
 
 //===----------------------------------------------------------------------===//

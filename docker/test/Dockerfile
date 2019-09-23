@@ -1,4 +1,4 @@
-FROM liveui/boost-base:1.1.1
+FROM mcdappdev/swift:5.1
 
 WORKDIR /app
 
@@ -7,4 +7,3 @@ ADD Tests ./Tests
 ADD Package.swift ./
 
 CMD swift test
-
